@@ -81,7 +81,6 @@ body {
     background-color: white;
     margin-top: 10em;
 }
-
 .border-input {
     border: 2px solid black;
 }
@@ -111,9 +110,7 @@ body {
     color: rgb(70, 70, 70);
     pointer-events: none;
 
-}
-
-.class-for-library {
+}.class-for-library {
     background: url(img/library_img.jpg) no-repeat center center fixed;
     background-size: cover;
 }
