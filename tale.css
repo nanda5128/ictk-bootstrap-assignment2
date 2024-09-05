@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+:root {
+    --pc-blue: rgb(150, 28, 28);
+  }
+
+.form-control::placeholder {
+    color: grey;
+    font-size: 1.5em;
+    opacity: 0.5;
+}
+
+body {
+    background-color: rgb(224, 186, 115);
+    font-family: "Trocchi";
+}
+
+/* .row .col-md-6 h1 { */
+    /* display: inline; */
+    /* font-weight: 700; */
+/* } */
+
+
+
+.text-center.text-white {
+    font-size: 3.5em;
+    padding: 1.5em;
+    line-height: 1.1em;
+}
+
+
+
+.container-signup {
+    background-color:  white;
+    margin-top: 10em;
+}
+
+.border-input {
+    border: 2px solid white;
+}
+
+
+.class-for-library {
+    background: url(/img/backgrnd\ klara.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.library-banner {
+    display: inline-block;
+    background-color:var(--pc-blue);
+    color: white;
+    padding: 0.75em 0.5em;
+    margin: 0;
+}
+
+.banner-line {
+    opacity: 1;
+    border: 0.25em solid var(--pc-blue);
+    margin: 0;
+}
+
+/* .open-btn-library { */
+    /* color: black; */
+    /* background-color: var(--pc-blue); */
+/* } */
+
+.open-btn-library:hover {
+    border-color: var(--pc-blue);
+}
+
+/* .card-img-radius { */
+    /* border-top-left-radius: 2em; */
+    /* border-top-right-radius: 2em; */
+/* } */
+
+/* .card-style{ */
+    /* border: 0; */
+    /* min-height: 35em; */
+/* } */
+
+.div-open-button {
+    margin-top: 3em;
+}
+
+
+
+.A Tale of Two Cities Banner {
+    background: url(/img/backgrnd\ klara.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-bottom: 10em;
+}
+
+
+.main-container {
+    margin-top: 0;
+}
+
+.title-text {
+    color: var(--pc-blue);
+    font-size: 3em;
+}
+
+.title-details{
+    color: rgb(94, 31, 31);
+    font-size: 1.5em;
+}
+
+.title-synopsis {
+    color: rgb(53, 8, 8);
+    font-style: italic;
+}
+
+.similar-reads {
+    background-color: var(--pc-blue);
+}
+
